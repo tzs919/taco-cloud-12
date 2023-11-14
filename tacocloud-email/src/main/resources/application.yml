@@ -1,0 +1,13 @@
+spring:
+  main:
+    web-application-type: none
+
+tacocloud:
+  api:
+    url: http://localhost:8080/api/orders
+  email:
+    host: imap.qq.com
+    mailbox: INBOX
+    username: *****
+    password: *****
+    poll-rate: 10000

@@ -1,0 +1,10 @@
+用于第12课：外部系统集成（spring integration）
+
+对应Spring 实战（6）的第10章，注意：代码有改动！
+
+详见《D:\projects\南大\2023授课下\课件\12-服务端开发-外部系统集成.pptx》
+
+通过163发送email
+主题：TACO ORDER
+内容：TacoName1: flourTortilla,cornTortilla
+注意使用纯文本发送！
