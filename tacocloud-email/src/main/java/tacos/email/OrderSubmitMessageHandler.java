@@ -5,9 +5,6 @@ import org.springframework.messaging.MessageHeaders;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Component
 public class OrderSubmitMessageHandler
         implements GenericHandler<EmailOrder> {

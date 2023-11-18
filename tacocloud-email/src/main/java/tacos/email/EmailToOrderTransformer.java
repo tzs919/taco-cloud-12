@@ -51,10 +51,9 @@ public class EmailToOrderTransformer
             if (subject.toUpperCase().contains(SUBJECT_KEYWORDS)) {
                 String email =
                         ((InternetAddress) mailMessage.getFrom()[0]).getAddress();
-                String content = mailMessage.getContent().toString();
                 byte[] bytes = new byte[100];
                 mailMessage.getInputStream().read(bytes);
-                content = new String(bytes);
+                String content = new String(bytes);
                 return parseEmailToOrder(email, content);
             }
         } catch (MessagingException e) {
